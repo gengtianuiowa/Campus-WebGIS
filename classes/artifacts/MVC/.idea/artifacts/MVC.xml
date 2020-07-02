@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="MVC">
+    <output-path>$PROJECT_DIR$/classes/artifacts/MVC</output-path>
+    <root id="root">
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+    </root>
+  </artifact>
+</component>

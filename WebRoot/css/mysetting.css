@@ -1,0 +1,357 @@
+/*清楚所有元素的margin和padding*/
+/** {
+	margin: 0; 
+	padding: 0; 
+} 	*/
+
+.FloatControl{
+	position:absolute;
+	width: 300px;
+    padding: 5px;
+    margin: 0px auto 0px auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+	z-index:3;
+}
+
+.control{
+	position: absolute;
+	right:30px;
+    width: 70px;
+    height: 20px;
+    border: none;
+    background-color: #d83c3c;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: "微软雅黑";
+    font-size: 8px;
+    text-align:center;
+}
+
+.bt{
+    width: 70px;
+    height: 20px;
+    border: none;
+    margin-top:5px;
+    background-color:#d83c3c;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: "微软雅黑";
+    font-size: 8px;
+}
+
+#login{
+	right:50px;
+	top:100px;
+	position:absolute;
+}
+
+.btgroup
+{
+	right:30px;
+}
+
+.position-span{
+	font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    font-style:italic;
+    display:inline-block;
+}
+
+#mouse-position{
+	font: bold 14px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    font-style:italic;
+    display:inline-block;
+}
+#bt1{
+    top:100px;
+    right:350px;
+}
+#bt2{
+    top:100px;
+    right:270px;
+}
+#bt3{
+    top:100px;
+    right:190px;
+}
+#bt4{
+    top:100px;
+    right:110px;
+}
+#bt5{
+    top:100px;
+    right:30px;
+}
+#bt6{
+    top:225px;
+}
+#bt7{
+    top:250px;
+}
+#bt8{
+    top:275px;
+}
+#bt9{
+    top:300px;
+}
+#bt10{
+    top:325px;
+}
+#bt11{
+    top:350px;
+}
+
+#bt12{
+    top:375px;
+}
+
+#bt13{
+    top:400px;
+}
+
+#bt14{
+    top:425px;
+}
+
+#bt15{
+    top:450px;
+}
+#bt16{
+    top:475px;
+}
+
+#bt17{
+    top:500px;
+}
+
+#bt18{
+    top:525px;
+}
+
+#bt19{
+    top:550px;
+}
+
+#bt20{
+    top:575px;
+}
+
+#bt21{
+    top:600px;
+}
+
+#bt22{
+    top:625px;
+}
+
+#bt23{
+    top:650px;
+}
+
+#bt_att{
+	bottom:10px;
+	right:10px;
+}
+
+.input-wrapper{
+    width: 245px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    position: absolute;
+    right: 50px;
+    top: 30px;
+} 
+
+.input{
+    width: 165px;
+    height: 20px;
+    float: left;
+    font: bold 10px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    font-style:italic;
+    border: 0px;
+    background: #eee;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.search-btn {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 20px;
+    width: 55px;
+    font: bold 5px/20px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #d83c3c;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+
+#navigate-container{
+	margin-left:45px;
+}
+
+/*#navigate2-container{
+	margin-top:45px;
+	margin-left:45px;
+}*/
+
+.black_overlay{ 
+    display: none; 
+    position: absolute; 
+    top: 0%; 
+    left: 0%; 
+    width: 100%; 
+    height: 100%; 
+    background-color: black; 
+    z-index:6; 
+    -moz-opacity: 0.8; 
+    opacity:.80; 
+    filter: alpha(opacity=88); 
+}
+
+.white_content { 
+    display: none; 
+    position: absolute; 
+    top: 25%; 
+    left: 35%; 
+    width: 600px; 
+    height: 430px; 
+    padding: 20px; 
+    border: 10px solid #d83c3c; 
+    background-color: white; 
+    z-index:7; 
+    overflow: auto; 
+}
+
+.attribute-wrapper{
+	display: none; 
+    position: absolute; 
+    padding: 10px; 
+    border: 5px solid #d83c3c; 
+    background-color: white; 
+    z-index:7; 
+    overflow: auto; 
+}
+
+.attTbl{
+	font: bold 20px 'lucida sans', 'trebuchet MS', 'Tahoma';
+}
+
+
+/*设置图标动画效果*/
+@keyframes zoom
+      {
+        from {top: 0; left: 0; width: 16px; height: 16px;}
+        20% {top: -8px; left: -8px; width: 32px; height: 32px;}
+        to {top: 0; left: 0; width: 16px; height: 16px;}
+      }
+
+@-moz-keyframes zoom /* Firefox */
+{
+  from {top: 0; left: 0; width: 16px; height: 16px;}
+  20% {top: -8px; left: -8px; width: 32px; height: 32px;}
+  to {top: 0; left: 0; width: 16px; height: 16px;}
+}
+
+@-webkit-keyframes zoom /* Safari 和 Chrome */
+{
+  from {top: 0; left: 0; width: 16px; height: 16px;}
+  20% {top: -8px; left: -8px; width: 32px; height: 32px;}
+  to {top: 0; left: 0; width: 16px; height: 16px;}
+}
+
+@-o-keyframes zoom /* Opera */
+{
+  from {top: 0; left: 0; width: 16px; height: 16px;}
+  20% {top: -8px; left: -8px; width: 32px; height: 32px;}
+  to {top: 0; left: 0; width: 16px; height: 16px;}
+}
+#anchorImg
+  {
+    display: block;
+    position: absolute;
+    animation: zoom 1s;
+    animation-iteration-count: infinite; /* 一直重复动画 */
+    -moz-animation: zoom 1s; /* Firefox */
+    -moz-animation-iteration-count: infinite; /* 一直重复动画 */
+    -webkit-animation: zoom 1s;  /* Safari 和 Chrome */
+    -webkit-animation-iteration-count: infinite; /* 一直重复动画 */
+    -o-animation: zoom 1s; /* Opera */
+    -o-animation-iteration-count: infinite; /* 一直重复动画 */
+}
+
+#anchor1{
+	display:none;
+}
+
+.upload-img{
+	font: bold 20px 'lucida sans', 'trebuchet MS', 'Tahoma';
+}
+
+#image{
+    width: 150px;
+    height: 25px;
+    border: none;
+    background-color: #d83c3c;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: "微软雅黑";
+    font-size: 8px;
+}
+
+#legend{
+	width:200px;
+	height:200px;
+	right:0px;
+	display:none;
+	bottom:50px;
+	padding-top:3px;
+}
+
+#att{
+	width:250px;
+	height:600px;
+	top:20%;
+}
+img{
+	width:230px; 
+ 	height:300px;
+}
+
+.circle{
+width: 30px;
+height: 30px;
+border:black;
+-moz-border-radius: 30px;
+-webkit-border-radius: 30px;
+border-radius: 30px;
+} 
+
+#navigation:hover .bdpfmenu{
+	display:block;
+}
